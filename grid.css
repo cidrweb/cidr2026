@@ -8,10 +8,15 @@
         grid-gap: 1em;
         grid-template-rows:
             [time-1500] auto
+            [time-1530] auto
+            [time-1600] auto
+            [time-1630] auto
+            [time-1700] auto
+            [time-1730] auto
             [time-1800] auto
-            [time-1930] auto
-            [time-2100] auto;
-
+            [time-1830] auto
+            [time-1900] auto
+            [time-1930] auto;
 
             /* Note 1:
             Use 24hr time for gridline names for simplicity
@@ -34,7 +39,6 @@
         display: grid;
         grid-gap: 1em;
         grid-template-rows:
-            [time-0845] auto
             [time-0850] auto
             [time-0855] auto
             [time-0900] auto
@@ -50,6 +54,7 @@
             [time-0950] auto
             [time-0955] auto
             [time-1000] auto
+            [time-1010] auto
             [time-1030] auto
             [time-1035] auto
             [time-1040] auto
@@ -93,9 +98,11 @@
             [time-1450] auto
             [time-1455] auto
             [time-1500] auto
+            /*
             [time-1505] auto
             [time-1510] auto
             [time-1515] auto
+            */
             [time-1520] auto
             [time-1525] auto
             [time-1530] auto
@@ -109,6 +116,7 @@
             [time-1650] auto
             [time-1655] auto
             [time-1700] auto
+            /*
             [time-1705] auto
             [time-1710] auto
             [time-1715] auto
@@ -118,9 +126,15 @@
             [time-1735] auto
             [time-1740] auto
             [time-1745] auto
+            */
             [time-1750] auto
             [time-1800] auto
             [time-1805] auto
+            [time-1810] auto
+            [time-1820] auto
+            [time-1830] auto
+            [time-1840] auto
+            [time-1850] auto
             [time-1930] auto
             [time-1935] auto
             [time-1940] auto
@@ -235,7 +249,6 @@
             [time-1730] auto
             [time-1735] auto
             [time-1740] auto
-
             [time-1750] auto
             [time-1800] auto
             [time-1930] auto
@@ -283,18 +296,17 @@
         grid-template-rows:
 
             [time-0900] auto
-            [time-0905] auto
-            [time-0910] auto
             [time-0915] auto
             [time-0920] auto
             [time-0925] auto
             [time-0930] auto
-/*            [time-0935] auto
+            [time-0935] auto
             [time-0940] auto
             [time-0945] auto
             [time-0950] auto
-            [time-0955] auto*/
+            [time-0955] auto
             [time-1000] auto
+            [time-1015] auto
             [time-1030] auto
             [time-1035] auto
             [time-1040] auto
@@ -480,7 +492,7 @@
     align-items: center;
     background: #1259B2;
     color: #fff;
-    box-shadow: none;
+    /*box-shadow: none;*/
 }
 
 .text {
